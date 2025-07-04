@@ -35,7 +35,7 @@ const App = () => {
   return (
     <>
       <ApolloProvider client={client}>
-        <Router basename="/project-mgmt-app">
+        <Router>
           <Header/>
           <div className='container'>
             <Routes>

@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/project-mgmt-app/static/css/main.c93edd88.css",
-    "main.js": "/project-mgmt-app/static/js/main.e5b32283.js",
+    "main.js": "/project-mgmt-app/static/js/main.e74c8cd2.js",
     "index.html": "/project-mgmt-app/index.html",
     "main.c93edd88.css.map": "/project-mgmt-app/static/css/main.c93edd88.css.map",
-    "main.e5b32283.js.map": "/project-mgmt-app/static/js/main.e5b32283.js.map"
+    "main.e74c8cd2.js.map": "/project-mgmt-app/static/js/main.e74c8cd2.js.map"
   },
   "entrypoints": [
     "static/css/main.c93edd88.css",
-    "static/js/main.e5b32283.js"
+    "static/js/main.e74c8cd2.js"
   ]
 }
