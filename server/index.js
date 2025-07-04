@@ -8,13 +8,14 @@ const cors = require('cors')
 
 const app = express();
 const port = process.env.PORT || 5000;
+const allowedOrigins = ['https://mambawebdev.github.io']
 
 connectDB()
 
-
+app.use(cors())
 app.use(cors({
-   origin: 'https://mambawebdev.github.io',
-  credentials: true
+   origin: allowedOrigins,
+   credentials: true
 }))
 
 app.get('/', (req, res) => {
