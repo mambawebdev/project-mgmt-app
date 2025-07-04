@@ -13,6 +13,10 @@ connectDB()
 
 app.use(cors())
 
+app.get('/', (req, res) => {
+  res.send('GraphQL API is running! Visit /graphql');
+});
+
 app.use('/graphql', graphqlHTTP({
     schema,
     graphiql: process.env.NODE_ENV === "development"
